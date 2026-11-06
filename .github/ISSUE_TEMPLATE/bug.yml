@@ -1,0 +1,60 @@
+name: Bug report
+description: Something in a shipped component is broken or behaves unexpectedly.
+title: "[Bug]: "
+type: Bug
+labels: [needs-triage]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for reporting a bug. Please do **not** report security vulnerabilities here; see the repository's Security section instead.
+        Never paste secrets, API tokens, phone numbers or email contents of real people into an issue.
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: A clear description of the problem.
+    validations:
+      required: true
+  - type: textarea
+    id: expected
+    attributes:
+      label: What did you expect to happen?
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Call / send to ...
+        2. Open /admin ...
+        3. See error
+    validations:
+      required: true
+  - type: dropdown
+    id: platform
+    attributes:
+      label: Where does it happen?
+      multiple: true
+      options:
+        - MCP server (Claude tools)
+        - Admin dashboard (web)
+        - Voice / AI receptionist (phone call)
+        - SMS / messaging
+        - Email processing
+        - Scheduled job / CRM sync
+        - Other
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version / commit
+      description: Deployed commit SHA, Worker version ID, or date and time the problem was seen (with time zone).
+  - type: textarea
+    id: logs
+    attributes:
+      label: Logs and screenshots
+      description: Relevant log output (Workers logs, wrangler tail) or screenshots. Redact secrets and personal data.
+      render: shell

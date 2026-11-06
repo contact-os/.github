@@ -1,0 +1,27 @@
+name: Task
+description: A specific, scoped piece of work (chore, configuration, docs, ops).
+title: "[Task]: "
+type: Task
+body:
+  - type: textarea
+    id: context
+    attributes:
+      label: Context
+      description: Why is this needed? Link the parent Epic and any related issues.
+    validations:
+      required: true
+  - type: textarea
+    id: todo
+    attributes:
+      label: To do
+      description: The concrete steps, as a task list.
+      value: |
+        - [ ] 
+        - [ ] 
+    validations:
+      required: true
+  - type: textarea
+    id: done
+    attributes:
+      label: Definition of done
+      description: What must be true when this is closed?
