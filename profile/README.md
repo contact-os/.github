@@ -4,7 +4,7 @@ Contact OS is the communications layer of the [Caldrion](https://ventures.caldri
 
 Caldrion Ventures combines venture capital with a hands-on studio that identifies opportunities, validates concepts and incubates businesses through launch and growth. Contact OS is shared infrastructure for those businesses.
 
-**Links:** [Website](https://ventures.caldrion.com) · Portfolio project: TODO(confirm): link the "Caldrion" portfolio project once it exists
+**Links:** [Website](https://ventures.caldrion.com) · [Portfolio project](https://github.com/orgs/caldrion-com/projects/14) · [Contact OS project](https://github.com/orgs/contact-os/projects/1)
 
 ## What we build
 
@@ -25,6 +25,6 @@ Both products log activity to the studio CRM (`caldrion-com/crm`).
 
 ## Contact
 
-Use the contact options on [ventures.caldrion.com](https://ventures.caldrion.com). Please report security issues privately rather than in a public issue.
+Use the contact options on [ventures.caldrion.com](https://ventures.caldrion.com). Please report security issues privately rather than in a public issue; see our [security policy](https://github.com/contact-os/.github/blob/main/SECURITY.md).
 
 <sub>© Caldrion LLC. All rights reserved.</sub>
