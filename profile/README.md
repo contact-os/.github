@@ -4,7 +4,7 @@ Contact OS is the communications layer of the [Caldrion](https://ventures.caldri
 
 Caldrion Ventures combines venture capital with a hands-on studio that identifies opportunities, validates concepts and incubates businesses through launch and growth. Contact OS is shared infrastructure for those businesses.
 
-**Links:** [Website](https://ventures.caldrion.com) · [Portfolio project](https://github.com/orgs/caldrion-com/projects/14) · [Contact OS project](https://github.com/orgs/contact-os/projects/1)
+**Links:** [Website](https://ventures.caldrion.com)
 
 ## What we build
 
